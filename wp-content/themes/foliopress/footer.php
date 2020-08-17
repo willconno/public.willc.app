@@ -54,17 +54,6 @@
 				</div><!-- .container -->
 			</div><!-- .widget-area -->
 		<?php } ?>
-		<div class="site-info">
-			<div class="container<?php echo ( $foliopress_settings['foliopress_footer_fluid'] === 1 && $foliopress_settings['foliopress_site_layout'] === 'wide' ) ? "-fluid" : "" ;?>">
-				<div class="row">
-					<?php if ( $foliopress_settings['foliopress_social_profiles'] != '' && $foliopress_settings['foliopress_footer_social'] == 0 ) { ?>
-						<div class="<?php echo ( $foliopress_settings['foliopress_footer_info_center'] == 0 ) ? "col-lg-auto order-lg-2" : "col-12" ;?> ml-auto">
-							<?php echo esc_html( foliopress_social_profiles() ); ?>
-						</div>
-					<?php } ?>
-				</div><!-- .row -->
-			</div><!-- .container -->
-		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	<div class="back-to-top"><a title="<?php esc_attr_e('Go to Top','foliopress');?>" href="#masthead"></a></div>
 	<div class="search-block off">
