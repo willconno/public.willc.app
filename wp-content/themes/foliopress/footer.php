@@ -62,15 +62,6 @@
 							<?php echo esc_html( foliopress_social_profiles() ); ?>
 						</div>
 					<?php } ?>
-					<div class="copyright <?php echo ( $foliopress_settings['foliopress_footer_info_center'] == 0 ) ? "col-lg order-lg-1 text-lg-left" : "col-12" ;?>">
-						<div class="theme-link">
-							<?php echo esc_html__('Copyright &copy; ','foliopress') . foliopress_the_year() . foliopress_site_link(); ?>
-						</div>
-						<?php if ( get_privacy_policy_url() !== '' && function_exists('the_privacy_policy_link')) {
-							the_privacy_policy_link('<div class="privacy-link">', '</div>');
-						}
-						echo foliopress_author_link() . foliopress_wp_link(); ?>
-					</div><!-- .copyright -->
 				</div><!-- .row -->
 			</div><!-- .container -->
 		</div><!-- .site-info -->
